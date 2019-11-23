@@ -14,7 +14,7 @@ You can then upload an existing `.ipynb` file or create a new one.  From the Fil
 
 ## Options for viewing or running the notebook remotely
 
-The files in the `binder` directory define then necessary configurartion to use almond notebooks with `nbviewer` and `mybinder`.
+The files in the `binder` directory define a configuration to use almond notebooks with `nbviewer` and `mybinder`.
 
 ### Static renderings
 
