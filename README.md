@@ -1,4 +1,7 @@
-# cite-ipynb
+# `cite-ipynb`
+
+
+## Notebooks for the almond kernel
 
 Notebook files (`.ipynb` files) in the `almond` directory are Jupyter notebooks using the [almond kernel for Scala](https://almond.sh/).
 
@@ -11,20 +14,17 @@ You can then upload an existing `.ipynb` file or create a new one.  From the Fil
 
 ## Options for viewing or running the notebook remotely
 
+The files in the `binder` directory define then necessary configurartion to use almond notebooks with `nbviewer` and `mybinder`.
 
 ### Static renderings
 
--  This notebook rendered as HTML directly on github: <https://github.com/neelsmith/cite-ipynb/blob/master/almond-CITE-edited.ipynb>
+-  This notebook rendered as HTML directly on github: <https://github.com/neelsmith/cite-ipynb/blob/master/almond/almond-CITE.ipynb>
 -  From <https://nbviewer.jupyter.org/>, enter the github usename/repo pair `neelsmith/cite-ipynb`
 
 
 ### Ineractive
 
-Can also go to https://mybinder.org/ and enter github repo URL:  scala kernel available after commit of configuration files in `binder` directory.
+Use this link to build and launch an environment where you can work with the notebook interactively  on mybinder.org
 
-([binder link](https://mybinder.org/v2/gh/neelsmith/cite-ipynb/7d2013916a2ef200557129af3b6c7e665440af50))
-
-
-All the CITE goodies via almond work on github.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/neelsmith/cite-ipynb/master)
