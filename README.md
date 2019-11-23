@@ -1,12 +1,21 @@
 # cite-ipynb
 
+The Jupyter notebook `almond-CITE>ipynb` was originally created using Jupyter notebook server with an almond kernel, then from the File menu, using `Download as...Notebook`, to save  an `.ipynb` file.  You can run the same notebook server locally with
 
-Initial notebook was created by running almond.sh via docker, and then from the File menu, using `Download as...Notebook`, to save  an `.ipynb` file and commit it to github.  It displays fine there as a static file.
+    docker run -it --rm -p 8888:8888 almondsh/almond:0.8.2
+
+and upload the `.ipynb` file.
+
+## Options for viewing or running the notebook remotely
 
 
-Run locally:  docker run -it --rm -p 8888:8888 almondsh/almond:0.8.2
+### Static renderings
 
-Can also go to https://nbviewer.jupyter.org/ and enter github usename/repo.
+-  This notebook rendered as HTML directly on github: <https://github.com/neelsmith/cite-ipynb/blob/master/almond-CITE-edited.ipynb>
+-  From <https://nbviewer.jupyter.org/>, enter the github usename/repo pair `neelsmith/cite-ipynb`
+
+
+### Ineractive
 
 Can also go to https://mybinder.org/ and enter github repo URL:  scala kernel available after commit of configuration files in `binder` directory.
 
