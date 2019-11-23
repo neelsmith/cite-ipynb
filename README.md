@@ -1,10 +1,13 @@
 # cite-ipynb
 
-The Jupyter notebook `almond-CITE>ipynb` was originally created using Jupyter notebook server with an almond kernel, then from the File menu, using `Download as...Notebook`, to save  an `.ipynb` file.  You can run the same notebook server locally with
+Notebook files (`.ipynb` files) in the `almond` directory are Jupyter notebooks using the [almond kernel for Scala](https://almond.sh/).
+
+They were originally created by running a  notebook server with an almond kernel using a docker image.  You can run the same notebook server locally with
 
     docker run -it --rm -p 8888:8888 almondsh/almond:0.8.2
 
-and upload the `.ipynb` file.
+You can then upload an existing `.ipynb` file or create a new one.  From the File menu, you can use `Download as...Notebook`, to save  your running notebook as a `.ipynb` file.
+
 
 ## Options for viewing or running the notebook remotely
 
