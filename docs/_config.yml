@@ -1,0 +1,23 @@
+
+
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            "CITE Jupyter"
+tagline:          'CITE libraries in Jupyter notebooks'
+description:      ''
+
+
+baseurl: '/cite-ipynb/'
+
+
+author:
+  name:           'Neel Smith'
+
+
+links:
+  - title:  CITE Architecture
+    url:  https://github.com/cite-architecture
+    external: true
