@@ -4,6 +4,7 @@ layout: page
 ---
 
 
-Introductory notes: TBA
-
-Use notebooks in `jes`.
+- [named values](named-values/) in Scala
+- collections of values
+- defining your own functions
+- case classes
